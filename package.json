@@ -1,0 +1,21 @@
+{
+    "name": "hello-world-node2",
+    "version": "0.1.0",
+    "description": "ooh baby",
+    "contributors": [
+        "Will Shulman <will@objectlabs.com>"
+    ],
+    "repository" : { 
+        "type" : "git",
+        "url" : "https://github.com/willshulman/hello-world-node"
+    },
+    "directories" : {
+        "lib" : "./lib",
+        "bin" : "./bin"
+    },
+    "engines": { "node": "~0.8.6" },
+    "dependencies": {
+        "express" : "2.5.10"
+    },
+    "preferGlobal": false
+}
