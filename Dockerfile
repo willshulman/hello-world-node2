@@ -7,13 +7,7 @@ RUN     yum install -y npm
 
 RUN     yum install -y git
 
-RUN mkdir ~/.ssh
-#RUN ssh-keyscan github.com >> ~/.ssh/known_hosts
-
-# Bundle app source
 #ADD . /src
-
-RUN git clone https://github.com/willshulman/hello-world-node2.git
 
 # Install app dependencies
 RUN cd /hello-world-node2; npm install .
