@@ -7,7 +7,7 @@ RUN     yum install -y npm
 
 RUN     yum install -y git
 
-ADD .
+ADD . /
 
 # Install app dependencies
 RUN npm install .
