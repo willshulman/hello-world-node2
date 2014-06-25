@@ -9,7 +9,6 @@ RUN     yum install -y git
 
 ADD . /
 
-# Install app dependencies
 RUN npm install .
 
 EXPOSE  6000
