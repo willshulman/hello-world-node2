@@ -12,5 +12,5 @@ ADD . /
 # Install app dependencies
 RUN npm install .
 
-EXPOSE  3000
+EXPOSE  6000
 CMD ["node", "/hello-world-node2/lib/server.js"]
