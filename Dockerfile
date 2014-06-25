@@ -13,4 +13,4 @@ ADD . /
 RUN npm install .
 
 EXPOSE  6000
-CMD ["node", "/hello-world-node2/lib/server.js"]
+CMD ["node", "lib/server.js"]
