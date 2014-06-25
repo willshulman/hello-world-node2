@@ -10,7 +10,7 @@ RUN     yum install -y git
 #ADD . /src
 
 # Install app dependencies
-RUN cd /hello-world-node2; npm install .
+RUN npm install .
 
 EXPOSE  3000
 CMD ["node", "/hello-world-node2/lib/server.js"]
